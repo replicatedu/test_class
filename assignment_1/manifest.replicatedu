@@ -8,3 +8,11 @@ test_directory = "."
 cmd = "chmod +x assignment1.sh && ./assignment1.sh"
 expected = "hello world1"
 points = 10
+
+[[test]]
+description = "this is a test to check hello world"
+test_type = "test_output_is_expected"
+test_directory = "."
+cmd = "echo hello world"
+expected = "hello world2"
+points = 10
