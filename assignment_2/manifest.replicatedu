@@ -5,15 +5,7 @@ manifest_description = "this is assignment 1's manifest file"
 description = "this is a test to check hello world"
 test_type = "test_assert_err"
 test_directory = "."
-cmd = "asd world"
-expected = "hello world"
+cmd = "chmod +x assignment2.sh && ./assignment2.sh"
+expected = "hello world2"
 points = 10
 
-[[test]]
-description = "this is a test to check hello world"
-test_type = "test_assert_exit_code"
-exit_code = 0
-test_directory = "."
-cmd = "echo hello world"
-expected = "hello world"
-points = 10
