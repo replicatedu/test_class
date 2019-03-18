@@ -3,7 +3,7 @@ manifest_description = "this is assignment 1's manifest file"
 
 [[test]]
 description = "this is a test to check hello world"
-test_type = "test_assert_err"
+test_type = "test_output_is_expected"
 test_directory = "."
 cmd = "chmod +x assignment2.sh && ./assignment2.sh"
 expected = "hello world2"
