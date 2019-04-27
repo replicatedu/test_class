@@ -1,1 +1,0 @@
-FROM replicatedu_test
