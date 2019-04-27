@@ -1,1 +1,1 @@
-FROM replicatedu_test
+FROM hortinstein/replicatedu_tester
